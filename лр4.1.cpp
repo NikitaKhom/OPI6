@@ -14,8 +14,8 @@ int main() {
     cin >> n;
     x = int(m) / int(n);
     s = int(m) % int(n);
-    cout << "s = " << s << endl;
-    cout << "x = " << x << endl;
+    cout << "Неповна шеренга (s) = " << s << endl;
+    cout << "Повна шеренга (х) = " << x << endl;
     system("pause");
     return 0;
 }
